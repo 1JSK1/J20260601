@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.npm-cache/
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+
+# Native build output
+build/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/debug.keystore
+*.keystore
+*.jks
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Runtime data
+logs/
+backend/logs/
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Release artifacts
+release/
+*.apk
+*.aab
+*.exe
+*.zip
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Codex / local agent workspace
+.agents/
+
+# Private project documents
+软著/
